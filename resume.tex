@@ -1,0 +1,102 @@
+% LaTeX resume using res.cls
+\documentclass[line,10pt]{res}
+\title{Resume}
+%\usepackage{helvetica} % uses helvetica postscript font (download helvetica.sty)
+%\usepackage{newcent}   % uses new century schoolbook postscript font  
+\setlength{\topmargin}{-0.6in}  % Start text higher on the page 
+\setlength{\textheight}{9.9in}  % increase textheight to fit more on a page
+\setlength{\headsep}{0.13in}     % space between header and text
+\setlength{\headheight}{13.6pt}   % make room for header
+\usepackage{fancyhdr}  % use fancyhdr package to get 2-line header
+\renewcommand{\headrulewidth}{0pt} % suppress line drawn by default by fancyhdr
+\lhead{\hspace*{-\sectionwidth}Daniel N. Hill} % force lhead all the way left
+\rhead{Page \thepage}  % put page number at right
+\cfoot{}  % the footer is empty
+\pagestyle{fancy} % set pagestyle for the document
+
+\begin{document} 
+\thispagestyle{empty} % this page does not have a header
+\name{Daniel N. Hill}
+\address{716.771.8224}
+\address{daniel.n.hill@gmail.com}
+
+\begin{resume}
+
+\section{EDUCATION}
+\vspace{0.12in}  
+ \textbf{Computational Neuroscience, PhD}, 2009, University of California, San Diego \\
+ \textbf{Electrical and Computer Engineering, MS}, 2008, University of California, San Diego \\
+ \textbf{Computer Science, BS}, 2002, Rochester Institute of Technology
+
+\section{EXPERIENCE}
+ {\bf Machine Learning Scientist}, 2015-present \\ {\bf Amazon.com, Inc.}, Palo Alto, CA 
+  \begin{itemize}
+          \item[] Developed ranking algorithms for Interesting Finds using multi-armed bandit methods, diversification, and personalization.  Collaborated with Prof. SVN Vishwanathan of UCSC.  
+         \item[] Created a multivariate testing system in which experiments with over 100 treatments converged 10 times faster than traditional A/B testing.  
+   \end{itemize}
+   
+ {\bf Senior Data Scientist}, 2013-2015 \\ {\bf Integral Ad Science}, New York, NY 
+  \begin{itemize}
+          \item[] {\small Led ``Causal Impact'' project to estimate ROI of digital ad campaigns using observational analysis when A/B tests are unavailable.  }
+        \end{itemize}
+{\bf Post-doctoral Researcher}, 2010-2012 \\ {\bf Technical University of Munich}, Germany 
+  \begin{itemize}
+        \item[] {\small 
+Recorded and analyzed high frame rate video of calcium activity in neuronal dendrites.  Worked in collaboration with Nobel Laureate Bert Sakmann.        }
+  \end{itemize}
+
+
+{\bf Doctoral Student}, 2003-2009 \\ 
+{\bf UCSD Neurophysics Lab}, San Diego, CA 
+  \begin{itemize}
+        \item[] {\small Recorded neural-muscular data to build models of how rats explore their environments using their whiskers.  Created an open source MATLAB toolbox called \textbf{UltraMegaSort2000} for performing clustering on electrophysiological data.}
+\end{itemize}    
+    
+   {\bf Research Assistant}, 2001-2002 \\ {\bf Los Alamos National Laboratory}, New Mexico  
+  \begin{itemize}
+        \item[] {\small Implemented and parallelized clustering algorithms for genome data. Coded neural network model of retina to simualte Benham's Top illusion. }
+  \end{itemize}
+\section{SKILLS} 
+{\bf Programming:} {\small Python, Java, Scala, MATLAB, SQL, BASH, awk, Pig, Hadoop, HBase, Git,\LaTeX, R, Spark, HTML, C, JavaScript, API-scraping}
+
+{\bf Statistics and Machine Learning: } {\small Multi-armbed bandits, learning to rank, GLM, random forest, GBM, DSP, filter design, non-parametric statistics, survival analysis, causality, clustering}
+    
+\section{SELECTED PUBLICATIONS} 
+\textbf{Hill DN}, Nassif H, Liu Y, Iyer A, Vishwanathan SVN. An efficient bandit algorithm for realtime multivariate optimization. In Proceedings of the 23rd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining. (2017)
+
+Teo CH, Nassif H, \textbf{Hill D}, Srinivasan S, Goodman M, Mohan V, Vishwanathan SVN. Adaptive, Personalized Diversity for Visual Discovery. In Proceedings of the 10th ACM Conference on Recommender Systems, pp. 35-38. (2016) \textbf{Oral presentation. Winner of best paper award.}
+
+\textbf{Hill DN}, Moakler R, Hubbard AE, Tsemekhman V, Provost F, Tsemekhman K.  Measuring causal impact of online actions via natural experiments: application to display advertising. In Proceedings of the 21th ACM SIGKDD International Conference on Knowledge Discovery and Data Mining, pp. 1839-1847. (2015) \textbf{Oral presentation.}
+
+\end{resume}
+\end{document}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
